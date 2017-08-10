@@ -1,7 +1,8 @@
 from numpy import *
-
+import sys
 def run():
-    points=genfromtxt("data.csv", delimiter=",")
+    print "The data file being trained on is:{0}".format(sys.argv[1])
+    points=genfromtxt(sys.argv[1], delimiter=",")
     learning_rate=0.0001
     initial_m=0
     initial_b=0
