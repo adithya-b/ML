@@ -17,3 +17,4 @@ After 1000 iterations of gradient descent the m=1000,b=-0.037979888826 and error
 **Note**
 * This works on single dimensional input and output.
 * The data should be comma separated. 
+* As you might already know this can be solved using linear regression using direct formula to find the weights.
