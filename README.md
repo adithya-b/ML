@@ -9,10 +9,10 @@
 * python Gradient_LinearModel.py data.csv
 
 **Output**
-The data file being trained on is:data.csv
-starting gradient at m=0,b=0 and error=5565.10783448
-running
-After 1000 iterations of gradient descent the m=1000,b=-0.037979888826 and error=15.3223965149
+* The data file being trained on is:data.csv
+* starting gradient at m=0,b=0 and error=5565.10783448
+* running
+* After 1000 iterations of gradient descent the m=1000,b=-0.037979888826 and error=15.3223965149
 
 **Note**
 * This works on single dimensional input and output.
