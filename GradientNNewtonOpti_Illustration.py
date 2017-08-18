@@ -23,8 +23,8 @@ def steepestdescent(alpha=0.005):
     print "The gradient matrix is {0}".format(gradient)
 #Here we are trying to minimize the distance between the known root of function and weights vector
 #Instead the below compute error can also be choosen for actual problems
-    while np.linalg.norm(weights-weights_result)>error:
-    #while abs(computeerror(obj,weights))>error:
+    #while np.linalg.norm(weights-weights_result)>error:
+    while abs(computeerror(obj,weights))>error:
         gradient_value=computexprmatrix(gradient,weights)
         weights=weights-np.dot(alpha,gradient_value)
     print "The resultant weight vector is {0}".format(weights)
@@ -43,8 +43,8 @@ def newtonoptimization():
     print "The hessian matrix is {0}".format(gradient)
 #Here we are trying to minimize the distance between the known root of function and weights vector
 #Instead the below compute error can also be choosen for actual problems
-    while np.linalg.norm(weights-weights_result)>error:
-    #while abs(computeerror(obj,weights))>error:
+    #while np.linalg.norm(weights-weights_result)>error:
+    while abs(computeerror(obj,weights))>error:
         gradient_value=Matrix(computexprmatrix(gradient,weights))
         newton=hessian_inv*gradient
         newton_value=computexprmatrix(newton,weights)
