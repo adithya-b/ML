@@ -21,7 +21,7 @@
 
 **GradientNNewtonOpti_Illustration.py**
 * The above algorithm implements gradient descent and newton optmization
-* The newton optimization is implemented on derivative of function
+* The newton optimization is implemented on derivative of function since the roots of derivate function are the points correspoding to the minimal of actual function
 * The above is one of the second order optimization
 * The above program is illustrated for quadratic and rosenbrock function
 * The gradient descent does not work for rosenbrock function because of it's peculiar nature
@@ -34,4 +34,5 @@
 * python GradientNNewtonOpti_Illustration.py
 
     **Output**
+* The output illustrates that the Gradient is not a solution for all.   
 * The output is self explanatory
