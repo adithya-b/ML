@@ -36,3 +36,5 @@
     **Output**
 * The output illustrates that the Gradient is not a solution for all.   
 * The output is self explanatory
+
+Reference(GradientNNewtonOpti_Illustration.py): https://www.youtube.com/watch?v=UIFMLK2nj_w
